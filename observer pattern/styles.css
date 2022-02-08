@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  flex-direction: column;
+  margin-top: 6em;
+}
+
+h1 {
+  margin-bottom: 4em;
+}
+
+.input {
+  padding: 5px;
+}
+
+.input-listeners-container {
+  display: flex;
+  align-items: center;
+  margin-top: 4em;
+}
+
+.input-listeners-container div:nth-child(1) {
+  margin-right: 2em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1em;
+  width: 100%;
+}
