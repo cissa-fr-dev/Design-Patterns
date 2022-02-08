@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+    <title>Observable</title>
+  </head>
+  <body>
+    <h1>Exemple with observer</h1>
+    <div>
+      <input type="text" class="input" placeholder="Type something" />
+    </div>
+
+    <div class="input-listeners-container">
+      <div class="container">
+        <p class="lintening-message1">Not listening</p>
+        <input disabled class="read-only-input1" />
+        <div class="button-container">
+          <button class="subscribe-button1">subscribe</button>
+          <button class="unsubscribe-button1">unsubscribe</button>
+        </div>
+      </div>
+
+      <div class="container">
+        <p class="lintening-message2">Not listening</p>
+        <input disabled class="read-only-input2" />
+        <div class="button-container">
+          <button class="subscribe-button2">subscribe</button>
+          <button class="unsubscribe-button2">unsubscribe</button>
+        </div>
+      </div>
+    </div>
+    <script src="observer.js"></script>
+  </body>
+</html>
